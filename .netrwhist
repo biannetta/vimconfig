@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/biannetta/.bundler'
+let g:netrw_dirhist_2='/Library/LaunchDaemons'
+let g:netrw_dirhist_3='/private/etc/apache2/sites-available'
+let g:netrw_dirhist_4='/Users/biannetta/Sites/prosoftxp_websites/public_html/cgi-bin'
+let g:netrw_dirhist_5='/Users/biannetta/Sites/webclient/public_html'
+let g:netrw_dirhist_6='/Users/biannetta/Sites/webclient/public_html/database/logs/2014/03/25'
