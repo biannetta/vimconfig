@@ -50,7 +50,12 @@ let g:airline_powerline_fonts=1
 let g:ctrlp_open_new_file='h'
 let NERDTreeDirArrows=0
 autocmd vimenter * if !argc() | NERDTree | endif
+hi SignColumn ctermbg=235
 set statusline+=%{fugitive#statusline()}
+
+""" GitGutter Signs
+let g:gitgutter_sign_added = '+'
+let g:gitgutter_sign_removed = '-'
 
 """ Key Mappings
 nnoremap <silent><C-d> :NERDTreeToggle<CR>
