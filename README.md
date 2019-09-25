@@ -1,6 +1,3 @@
-#Dotfiles from my Mac Terminal
-
-vim
----
-
-Vim configuration files
+Vim Config Files
+--
+Includes Colours, Syntax and Vundle Plugin setup
