@@ -17,7 +17,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 """ Plugins
-Plugin 'aaronjensen/ctrlp.vim'
+Plugin 'ctrlp/ctrlp.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
