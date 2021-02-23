@@ -22,6 +22,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'msanders/cocoa.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
@@ -45,7 +46,7 @@ au BufNewFile,BufRead *.less set filetype=less
 au BufNewFile,BufRead *.hx set filetype=haxe
 
 """ Bundle settings
-let g:airline_theme='dark'
+let g:airline_theme='solarized'
 let g:airline_powerline_fonts=1
 let g:ctrlp_open_new_file='h'
 let NERDTreeDirArrows=0
@@ -58,5 +59,4 @@ let g:gitgutter_sign_added = '+'
 let g:gitgutter_sign_removed = '-'
 
 """ Key Mappings
-nnoremap <silent><C-d> :NERDTreeToggle<CR>
 nnoremap <buffer><F9> :exec '!python' shellescape(@%, 1)<cr>
